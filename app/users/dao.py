@@ -1,10 +1,8 @@
 from sqlalchemy import select
-from app.users.models import User
 from app.database import async_session_maker
 
 from app.dao.base import BaseDAO
 from app.users.models import User
-from pydantic import EmailStr
 
 class UsersDAO(BaseDAO):
     model = User
