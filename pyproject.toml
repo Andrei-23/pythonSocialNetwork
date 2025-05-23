@@ -23,6 +23,11 @@ pytest-mock = "*"
 pytest-repeat = "*"
 pytest-asyncio = "*"
 httpx = "^0.28.1"
+grpcio = "*"
+grpcio-tools = "*"
+protobuf = "*"
+kafka-python = "*"
+python-dotenv = "*"
 
 [build-system]
 requires = ["poetry-core"]
